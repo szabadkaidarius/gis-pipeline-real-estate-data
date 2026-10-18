@@ -1,0 +1,28 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local datasets and generated results
+data/
+eredmenyek/
+outputs/
+*.osm
+!examples/synthetic_test_map.osm
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# System and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
