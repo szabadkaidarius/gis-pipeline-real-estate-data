@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="synthetic-fixture">
+  <node id="1" lat="46.070" lon="18.230"><tag k="addr:city" v="Pécs"/><tag k="addr:street" v="Próba utca"/><tag k="addr:housenumber" v="1"/></node>
+  <node id="2" lat="46.071" lon="18.230"/>
+  <way id="3"><nd ref="1"/><nd ref="2"/><tag k="highway" v="residential"/><tag k="name" v="Próba utca"/></way>
+</osm>
